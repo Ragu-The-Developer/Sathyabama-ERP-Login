@@ -1,4 +1,4 @@
-
+import React from 'react';
 import './style.css';
 import Logo from '../src/Logo/sist-logo.png';
 
@@ -12,13 +12,10 @@ function App() {
         
         <p>Enter Your RegNo and DOB to access student panel</p>
         
-
-
         <label>
-          <input placeholder='Register Number'></input>
-          <input placeholder='Password'><~/input>
-          
-            <button>LOG IN</button>
+          <input type="number" placeholder='Register Number' required/>
+          <input type="password" placeholder='Password' required/>
+          <button>LOG IN</button>
         </label>
       
       </form>
